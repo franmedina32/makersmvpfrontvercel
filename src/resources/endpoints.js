@@ -6,9 +6,9 @@
     deleteFav:  "http://localhost:8080/user/delFav"
 }*/
 export const endpoints = {
-    login: "http://3.128.170.27:8080/user/login",
-    newUser: "http://3.128.170.27:8080/user/new",
-    findUserByEmail: "http://3.128.170.27:8080/user/get",
-    setFav:  "http://3.128.170.27:8080/user/addFav",
-    deleteFav:  "http://3.128.170.27:8080/user/delFav"
+    login: "https://3.128.170.27:8080/user/login",
+    newUser: "https://3.128.170.27:8080/user/new",
+    findUserByEmail: "https://3.128.170.27:8080/user/get",
+    setFav:  "https://3.128.170.27:8080/user/addFav",
+    deleteFav:  "https://3.128.170.27:8080/user/delFav"
 }
