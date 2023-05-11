@@ -1,0 +1,47 @@
+.favs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logoImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #6f5b82;
+    display: flex;
+}
+
+.favCard{
+    border: 3px solid #af91cc;
+    background-color: #d8cce3;
+    border-radius: 30px;
+    width: 350px;
+    padding: 1rem 0rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.cardHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#opensea{
+    font-size: 1.5rem;
+}
+
+button {
+    box-shadow: 5px;
+    padding: 0.3rem;
+    background-color: #6f5b82;
+    color: white;
+    font-size: large;
+    border-radius: 35%;
+}

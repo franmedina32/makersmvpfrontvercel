@@ -1,0 +1,97 @@
+.home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #af91cc;
+    min-height: 400px;
+}
+
+.searchform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.2rem 0rem;
+}
+
+.searchform div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0rem;
+    font-size: large;
+}
+
+.searchform div label {
+    margin-bottom: 0.2rem;
+}
+
+.collectionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #af91cc;
+    background-color: #d8cce3;
+    padding: 0.05rem 1.5rem;
+    margin: 0.5rem 0rem;
+    border-radius: 25px;
+}
+
+.buyos{
+    background-color: white;
+    font-size: large;
+    width: 100%;
+    margin: 0;
+    padding: 0.2rem;
+}
+
+.favHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #6f5b82;
+}
+
+.imgtit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtit h1,img {
+    margin: 0
+}
+
+.collectionData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthlyList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+button {
+    box-shadow: 5px;
+    padding: 0.3rem;
+    background-color: #6f5b82;
+    color: white;
+    font-size: large;
+    border-radius: 35%;
+}

@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background-color: #6f5b82;
+    margin: 0;
+    color: white;
+}
+
+
+
+.footerp {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+button {
+    box-shadow: 5px;
+    padding: 0.3rem;
+    background-color: #6f5b82;
+    color: white;
+    font-size: large;
+    border-radius: 35%;
+}
